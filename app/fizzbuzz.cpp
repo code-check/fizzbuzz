@@ -23,7 +23,7 @@ string fizzbuzz(int n) {
 int main(int argc, char *argv[])
 {
 
-  if (argc != 2 || argc == 1) {
+  if (argc != 2) {
     cout << "usage: ./a.out <number>\n";
     return 1;
   }
