@@ -8,17 +8,17 @@ class Test1Spec extends Specification {
     setup:
     def fizzbuzz = new FizzBuzz()
     
-    String[] resultdata = new String[101]
+    String[] resultdata = new String[100]
     for (i in 1..100) {
-      if(i % 15 == 0) resultdata[i] =  "FizzBuzz"
-      else if(i % 5 == 0) resultdata[i] = "Buzz"
-      else if(i % 3 == 0) resultdata[i] = "Fizz"
-      else resultdata[i] = i
+      if(i % 15 == 0) resultdata[i-1] =  "FizzBuzz"
+      else if(i % 5 == 0) resultdata[i-1] = "Buzz"
+      else if(i % 3 == 0) resultdata[i-1] = "Fizz"
+      else resultdata[i-1] = i
     }
 
     expect:
     for (n in 1..100) {
-      fizzbuzz.fizzBuzz(n) == resultdata[n]
+      assert fizzbuzz.fizzBuzz(n) == resultdata[n-1]
     }
   }
 }
