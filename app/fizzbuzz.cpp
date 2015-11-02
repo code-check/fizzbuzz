@@ -23,11 +23,11 @@ string fizzbuzz(int n) {
 int main(int argc, char *argv[])
 {
 
-  int arg1 = atoi(argv[1]);
-  if (argc != 2) {
+  if (argc != 2 || argc == 1) {
     cout << "usage: ./a.out <number>\n";
     return 1;
   }
+  int arg1 = atoi(argv[1]);
   cout << fizzbuzz(arg1);
   return 0;
 }
