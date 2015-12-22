@@ -1,26 +1,20 @@
-### FizzBuzz
+### FizzBuzz Challenge
 
-Write a function to implement FizzBuzz Logic.
+1から100までの数を表示させる。  
+ただし3の倍数の時は数字の代わりにFizz、5の倍数の時は数字の代わりにBuzz、3と5両方の倍数の時はFizz Buzzと表示させるプログラムを書きなさい。
 
-FizzBuzz Logic,
-If the number is
-- Divisible by ` 3 `  replace it with ` "Fizz" `
-- Divisible by ` 5 `  replace it with ` "Buzz" `
-- Divisible by ` 3 and 5 ` replace it with ` "FizzBuzz" `
-- Not Divisible by ` 3, 5 or 15 ` do not change
-
-### Example
+### 例
 
 <table>
   <tr>
-    <td><b>Input</b></td>
+    <td><b>インプット</b></td>
     <td>1</td>
     <td>3</td>
     <td>5</td>
     <td>15</td>
   </tr>
   <tr>
-    <td><b>Output</b></td>
+    <td><b>アウトプット</b></td>
     <td>1</td>
     <td>Fizz</td>
     <td>Buzz</td>
