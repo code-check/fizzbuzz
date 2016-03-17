@@ -34,8 +34,18 @@ If the number is
 $ npm install codecheck -g 
 ```
 - Now run `codecheck` command in terminal in the root folder of challenge
-- If you are solving it on Web editor please the `codecheck` command to run the tests.
-- On completing the challenge you will see following in your terminal 
+- If you are solving it on Web editor please run `codecheck` command to see the test status.
+```
+$ codecheck
+```
+- Initially all the tests will fail with following output
+```
+codecheck: Finish with code 100
+codecheck: tests  : 100
+codecheck: success: 0
+codecheck: failure: 100
+```
+- Solve the challenge to pass the tests
 ```
 codecheck: Finish with code 0
 codecheck: tests  : 100
