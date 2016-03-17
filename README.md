@@ -27,3 +27,29 @@ If the number is
     <td>FizzBuzz</td>
   </tr>
 </table>
+
+### Run Tests
+- If you are solving the test locally please install codecheck globally by running the following command in terminal
+```
+$ npm install codecheck -g 
+```
+- Now run `codecheck` command in terminal in the root folder of challenge
+- If you are solving it on Web editor please run `codecheck` command to see the test status.
+```
+$ codecheck
+```
+- Initially all the tests will fail with following output
+```
+codecheck: Finish with code 100
+codecheck: tests  : 100
+codecheck: success: 0
+codecheck: failure: 100
+```
+- Solve the challenge to pass the tests
+```
+codecheck: Finish with code 0
+codecheck: tests  : 100
+codecheck: success: 100
+codecheck: failure: 0
+```
+- If you have any suggestions or more interesting way of having this challenge please let us know in [answer.md](answer.md) file
