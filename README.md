@@ -12,7 +12,7 @@ Write a function to implement FizzBuzz Logic.
     - Divisible by ` 15 ` replace it with ` "FizzBuzz" `
     - Not Divisible by ` 3, 5 or 15 ` do not change
 
-## Example
+### Example
 
 <table>
   <tr>
