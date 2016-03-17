@@ -10,5 +10,8 @@ object FizzBuzz {
       case _           => n.toString
     }
     //END_CHALLENGE
+    //"fizzbuzz" is a temporary return value
+    // Plese write your solution here and comment the following line
+    "fizzbuzz"
   }
 }
