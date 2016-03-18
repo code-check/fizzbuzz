@@ -3,8 +3,8 @@
 Write a function to implement FizzBuzz Logic.
 
 ## Challenge Description
-- *Use [FizzBuzz.cs](https://github.com/code-check/fizzbuzz/blob/c%23/src/FizzBuzz.cs) for solving the challenge*
-- *See [FizzBuzzTest.cs](https://github.com/code-check/fizzbuzz/blob/c%23/src/FizzBuzzTest.cs) for seeing the tests*
+- *Use [fizzbuzz.cs](https://github.com/code-check/fizzbuzz/blob/c%23/src/fizzbuzz.cs) for solving the challenge*
+- *See [fizzbuzztest.cs](https://github.com/code-check/fizzbuzz/blob/c%23/src/fizzbuzztest.cs) for seeing the tests*
 - FizzBuzz Logic,
   - If the number is
     - Divisible by ` 3 `  replace it with ` "Fizz" `
