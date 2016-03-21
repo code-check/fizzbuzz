@@ -42,7 +42,10 @@
 テストの実行結果として以下の表示がされればクリアです。
 
 ```
-{{ Solved result of codecheck command }}
+codecheck: Finish with code 0
+codecheck: tests  : 1
+codecheck: success: 1
+codecheck: failure: 0
 ```
 
 --- --- ---

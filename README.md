@@ -35,14 +35,23 @@ Write a function to implement FizzBuzz Logic.
 Initially all the tests will fail with following output.
 
 ```
-{{ Initial result of codecheck command }}
+[ERROR] COMPILATION ERROR :
+[INFO] BUILD FAILURE
+FizzBuzz: Compilation failure
+codecheck: Finish with code 1
+codecheck: tests  : 0
+codecheck: success: 0
+codecheck: failure: 0
 ```
 
 ### Test Results *after* solving the challenge
 Solve the challenge to pass the tests.
 
  ```
- {{ Solved result of codecheck command }}
+ codecheck: Finish with code 0
+ codecheck: tests  : 1
+ codecheck: success: 1
+ codecheck: failure: 0
  ```
 
 If you have any suggestions or more interesting way of having this challenge please let us know in [answer.md](answer.md) file.
