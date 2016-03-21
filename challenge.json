@@ -1,5 +1,7 @@
 {
   "editable": [
+    "answer.md",
+    "codecheck.yml",
     "src/main/java/*"
   ],
   "readme": {
@@ -7,7 +9,6 @@
     "ja": "README_ja.md"
   },
   "excludes": [
-    ".gitignore",
     "challenge.json",
     "fizzbuzztest.*"
   ],

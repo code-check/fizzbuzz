@@ -7,11 +7,12 @@
 
 ## 問題
 ### ステップ1, FizzBuzzの問題を解く関数を実装してください
-- [TestFizzBuzz.java](src/test/java/TestFizzBuzz.java) にテストコードが記載されています。
+- [TestFizzBuzz.java](src/test/java/TestFizzBuzz.java)にテストコードが記載されています。
 - [FizzBuzz.java](src/main/java/FizzBuzz.java)を編集して、こちらを全て通過するFizzBuzzを解く関数 "fizzbuzz" を実装してください。  
 処理を分けるために自分で関数を新しく作っても問題ございませんが、最終的に答えを返すのは fizzbuzz 関数で行ってください。
 
-### 条件
+### 入出力例
+
 <table>
   <tr>
     <td><b>Input</b></td>
@@ -31,29 +32,29 @@
 
 ### ステップ2, あなたの書いたコードについて説明してください
 [answer.md](./answer.md) というファイルを用意してあるので、その中に
+
 - どのように実装したか
 - どのような事に気をつけて実装したか、工夫した点は何か
+
 等を書いてください。
 
 ## 期待するテストの実行結果
-- テストの実行結果として以下の表示がされればクリアです。
+テストの実行結果として以下の表示がされればクリアです。
 
 ```
-codecheck: Finish with code 0
-codecheck: tests  : 1
-codecheck: success: 1
-codecheck: failure: 0
+{{ Solved result of codecheck command }}
 ```
 
----
+--- --- ---
+
 ## テストの実行方法
-- codecheckでは、テストコードを実行して自分が正しく回答できているかどうかを確かめることができます
-- Webエディタで受験している場合は、consoleにある”Run”ボタンをクリックしてください
-- GitHubを活用したローカル受験では、以下の手順に従ってcodecheck CLIをインストールし、テストを実行してください
+codecheckでは、テストコードを実行して自分が正しく回答できているかどうかを確かめることができます。  
+Webエディタで受験している場合は、consoleにある”Run”ボタンをクリックしてください。  
+GitHubを活用したローカル受験では、以下の手順に従ってcodecheck CLIをインストールし、テストを実行してください。  
 
-- クローンしたプロジェクトのroot folderに移動し、以下のコマンドでCLIをインストールします
+クローンしたプロジェクトのroot folderに移動し、以下のコマンドでCLIをインストールします。
 ```
 $ npm install codecheck -g
 ```
 
-- テストを実行するにはroot folderから `codecheck`を入力し、実行してください
+テストを実行するにはroot folderから `codecheck`を入力し、実行してください。
