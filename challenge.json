@@ -1,6 +1,7 @@
 {
   "editable": [
-      "app/fizzbuzz.js"
+      "app/fizzbuzz.js",
+      "answer.md"
   ],
   "excludes": [
       ".gitignore",
