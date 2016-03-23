@@ -9,7 +9,7 @@
     "ja": "README_ja.md"
   },
   "excludes": [
-    "challenge.json",
+    "challenge.json"
   ],
   "test": "exit 1; #Set your command to run test"
 }
