@@ -1,4 +1,5 @@
 function fizzbuzz(data) {
+  //Solve the challenge here and pass all the tests
   //BEGIN_CHALLENGE
   var result;
   if(data % 15 == 0) { result = "FizzBuzz"; }
