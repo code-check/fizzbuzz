@@ -1,11 +1,21 @@
 {
   "editable": [
-      "app/fizzbuzz.js",
-      "answer.md"
+    "app/fizzbuzz.js",
+    "answer.md",
+    ".gitignore",
+    "package.json"
   ],
   "excludes": [
-      ".gitignore",
-      "challenge.json"
+    "challenge.json"
   ],
-  "test": "mocha"
+  "readme": {
+    "en": "README.md",
+    "ja": "README_ja.md"
+  },
+  "allowNewFile": true,
+  "test": "mocha",
+  "tags": [
+    "FizzBuzz",
+    "JavaScript"
+  ]
 }
