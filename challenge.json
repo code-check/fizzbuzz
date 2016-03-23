@@ -4,8 +4,7 @@
   ],
   "excludes": [
       ".gitignore",
-      "challenge.json",
-      "fizzbuzztest.js"
+      "challenge.json"
   ],
   "test": "mocha"
 }
