@@ -1,11 +1,20 @@
 {
   "editable": [
-    "src/FizzBuzz.cs"
+    "src/FizzBuzz.cs",
+    "answer.md",
+    ".gitignore"
   ],
   "excludes": [
-    ".gitignore",
     "challenge.json",
-    "TestResult.xml"
   ],
-  "test": "nunit-console target/FizzBuzz.dll"
+  "readme": {
+    "en": "README.md",
+    "ja": "README_ja.md"
+  },
+  "allowNewFile": true,
+  "test": "nunit-console target/FizzBuzz.dll",
+  "tags": [
+    "FizzBuzz",
+    "C Sharp"
+  ]
 }
