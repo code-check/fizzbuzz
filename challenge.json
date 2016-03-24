@@ -1,11 +1,21 @@
 {
-  "editable": [
-    "app/*"
+  "tags": [
+    "FizzBuzz",
+    "C++"
   ],
-  "excludes": [
+  "editable": [
+    "app/*",
     ".gitignore",
-    "challenge.json",
     "codecheck.yml"
   ],
+  "excludes": [
+    "challenge.json"
+  ],
+  "readme": {
+    "en": "README.md",
+    "ja": "README_ja.md"
+  },
+  "main": "app/fizzbuzz.cpp",
+  "allowNewFile": true,
   "test": "mocha"
 }
