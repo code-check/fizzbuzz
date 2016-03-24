@@ -2,7 +2,7 @@
   "tags": [
     "FizzBuzz",
     "Groovy"
-  ]
+  ],
   "editable": [
     "answer.md",
     "src/main/groovy/*",
