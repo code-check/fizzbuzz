@@ -1,8 +1,13 @@
 {
+  "tags": [
+    "FizzBuzz",
+    "C Sharp"
+  ],
   "editable": [
     "src/FizzBuzz.cs",
     "answer.md",
-    ".gitignore"
+    ".gitignore",
+    "codecheck.yml"
   ],
   "excludes": [
     "challenge.json",
@@ -13,9 +18,5 @@
   },
   "main": "src/FizzBuzz.cs",
   "allowNewFile": true,
-  "test": "nunit-console target/FizzBuzz.dll",
-  "tags": [
-    "FizzBuzz",
-    "C Sharp"
-  ]
+  "test": "nunit-console target/FizzBuzz.dll"
 }
