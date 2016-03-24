@@ -1,11 +1,16 @@
 {
+  "tags": [
+    "FizzBuzz",
+    "Go"
+  ],
   "editable": [
-    "src/fizzbuzz/fizzbuzz.go"
+    "src/fizzbuzz/fizzbuzz.go",
+    ".gitignore"
   ],
   "excludes": [
-    ".gitignore",
-    "challenge.json",
-    "fizzbuzz_test.go"
+    "challenge.json"
   ],
+  "main": "src/fizzbuzz/fizzbuzz.go",
+  "allowNewFile": true,
   "test": "go test -v fizzbuzz"
 }
