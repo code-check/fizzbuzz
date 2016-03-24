@@ -5,7 +5,9 @@
   ],
   "editable": [
     "src/fizzbuzz/fizzbuzz.go",
-    ".gitignore"
+    ".gitignore",
+    "answer.md",
+    "codecheck.yml"
   ],
   "excludes": [
     "challenge.json"
