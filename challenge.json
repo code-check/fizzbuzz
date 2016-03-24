@@ -10,6 +10,10 @@
   "excludes": [
     "challenge.json"
   ],
+  "readme": {
+    "en": "README.md",
+    "ja": "README_ja.md"
+  },
   "main": "src/fizzbuzz/fizzbuzz.go",
   "allowNewFile": true,
   "test": "go test -v fizzbuzz"
