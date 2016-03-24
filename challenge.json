@@ -1,10 +1,22 @@
 {
+  "tags": [
+    "FizzBuzz",
+    "PHP"
+  ],
   "editable": [
-    "app/*"
+    "app/*",
+    ".gitignore",
+    "answer.md",
+    "codecheck.yml"
   ],
   "excludes": [
-    ".gitignore",
     "challenge.json"
   ],
+  "readme": {
+    "en": "README.md",
+    "ja": "README_ja.md"
+  },
+  "main": "app/fizzbuzz.php",
+  "allowNewFile": true,
   "test": "phpunit test"
 }
