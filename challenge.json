@@ -7,7 +7,8 @@
     "answer.md",
     "src/main/groovy/*",
     ".gitignore",
-    "codecheck.yml"
+    "codecheck.yml",
+    "build.gradle"
   ],
   "excludes": [
     "challenge.json"
