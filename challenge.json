@@ -6,7 +6,8 @@
   "editable": [
     "app/*",
     ".gitignore",
-    "codecheck.yml"
+    "codecheck.yml",
+    "answer.md"
   ],
   "excludes": [
     "challenge.json"
