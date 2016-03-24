@@ -1,8 +1,13 @@
 {
+  "tags": [
+    "FizzBuzz",
+    "Java"
+  ],
   "editable": [
     "answer.md",
     "codecheck.yml",
-    "src/main/java/*"
+    "src/main/java/*",
+    ".gitignore"
   ],
   "readme": {
     "en":"README.md",
@@ -13,5 +18,6 @@
     "fizzbuzztest.*"
   ],
   "main": "src/main/java/FizzBuzz.java",
+  "allowNewFile": true,
   "test": "mvn test"
 }
