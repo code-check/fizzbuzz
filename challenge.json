@@ -7,6 +7,7 @@
     "answer.md",
     "src/main/groovy/*",
     ".gitignore",
+    "codecheck.yml"
   ],
   "excludes": [
     "challenge.json"
