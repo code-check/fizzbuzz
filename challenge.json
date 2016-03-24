@@ -10,7 +10,7 @@
     "codecheck.yml"
   ],
   "excludes": [
-    "challenge.json",
+    "challenge.json"
   ],
   "readme": {
     "en": "README.md",
