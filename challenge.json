@@ -1,12 +1,21 @@
 {
+  "tags": [
+    "FizzBuzz",
+    "Groovy"
+  ]
   "editable": [
-    "q3.md",
-    "src/main/groovy/*"
+    "answer.md",
+    "src/main/groovy/*",
+    ".gitignore",
   ],
   "excludes": [
-    ".gitignore",
-    "challenge.json",
-    "Test1Spec.groovy"
+    "challenge.json"
   ],
+  "readme": {
+    "en": "README.md",
+    "ja": "README_ja.md"
+  },
+  "main": "src/main/groovy/FizzBuzz.groovy",
+  "allowNewFile": true,
   "test": "gradle test"
 }
