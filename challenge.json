@@ -1,11 +1,22 @@
 {
+  "tags": [
+    "FizzBuzz",
+    "Python"
+  ],
   "editable": [
-    "app/*"
+    "app/*",
+    ".gitignore",
+    "answer.md",
+    "codecheck.yml"
   ],
   "excludes": [
-    ".gitignore",
-    "challenge.json",
-    "testfizzbuzz.py"
+    "challenge.json"
   ],
+  "readme": {
+    "en": "README.md",
+    "ja": "README_ja.md"
+  },
+  "main": "app/fizzbuzz.py",
+  "allowNewFile": true,
   "test": "nosetests"
 }
