@@ -1,3 +1,2 @@
-console: true
 test:
   go test -v fizzbuzz
