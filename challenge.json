@@ -1,9 +1,11 @@
 {
   "editable": [
+    ".gitignore",
+    "package.json",
     "answer.md",
-    "codecheck.yml",
-    "{{some of your files}}"
+    "codecheck.yml"
   ],
+  "allowNewFile": true,
   "readme": {
     "en":"README.md",
     "ja": "README_ja.md"
@@ -11,5 +13,5 @@
   "excludes": [
     "challenge.json"
   ],
-  "test": "exit 1; #Set your command to run test"
+  "test": "mocha"
 }
