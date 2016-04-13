@@ -25,7 +25,6 @@
   "homepage": "https://github.com/code-check/fizzbuzz#readme",
   "devDependencies": {
     "chai": "^3.5.0",
-    "chai-as-promised": "^5.3.0",
     "codecheck": "git+https://github.com/code-check/codecheck.git#bugfix"
   }
 }

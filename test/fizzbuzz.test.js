@@ -1,11 +1,6 @@
 "use strict";
 
-var chai = require("chai");
-var chaiAsPromised = require("chai-as-promised");
-
-chai.use(chaiAsPromised);
-
-var assert = chai.assert;
+var assert = require("chai").assert;
 var codecheck = require("codecheck");
 
 function fizzbuzz(n) {
@@ -45,6 +40,8 @@ describe("FizzBuzz", function() {
   });
 
   it ("1 to 100", function() {
+    this.timeout(10000);
+    
     var promises = [];
     for (let i=1; i<=100; i++) {
       promises.push((function(n) {
