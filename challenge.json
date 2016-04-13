@@ -13,5 +13,11 @@
   "excludes": [
     "challenge.json"
   ],
+  "cli": [
+    "nodejs",
+    "java",
+    "ruby",
+    "python"
+  ],
   "test": "mocha"
 }
