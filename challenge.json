@@ -15,7 +15,6 @@
   ],
   "cli": [
     "nodejs",
-    "java",
     "ruby",
     "go",
     "python"
