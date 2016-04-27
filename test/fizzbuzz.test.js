@@ -11,9 +11,9 @@ function fizzbuzz(n) {
 }
 
 describe("FizzBuzz", function() {
+  var app = codecheck.consoleApp(process.env.APP_COMMAND);
 
   it("1 -> 1", function() {
-    var app = codecheck.consoleApp(process.env.APP_COMMAND);
     return app.run(1).spread(function(code, stdOut) {
       assert.equal(code, 0);
       assert.equal(stdOut.length, 1);
@@ -22,7 +22,6 @@ describe("FizzBuzz", function() {
   });
 
   it("2 -> 2", function() {
-    var app = codecheck.consoleApp(process.env.APP_COMMAND);
     return app.run(2).spread(function(code, stdOut) {
       assert.equal(code, 0);
       assert.equal(stdOut.length, 1);
@@ -31,7 +30,6 @@ describe("FizzBuzz", function() {
   });
 
   it("3 -> Fizz", function() {
-    var app = codecheck.consoleApp(process.env.APP_COMMAND);
     return app.run(3).spread(function(code, stdOut) {
       assert.equal(code, 0);
       assert.equal(stdOut.length, 1);
@@ -39,20 +37,16 @@ describe("FizzBuzz", function() {
     });
   });
 
-  it ("1 to 100", function() {
-    this.timeout(30000);
-
-    var promises = [];
-    for (let i=1; i<=100; i++) {
-      promises.push((function(n) {
-        var app = codecheck.consoleApp(process.env.APP_COMMAND);
+  // 4 to 100
+  for (var i=4; i<=100; i++) {
+    (function(n) {
+      it(n + " to " + fizzbuzz(n), function() {
         return app.run(n).spread(function(code, stdOut) {
           assert.equal(code, 0);
           assert.equal(stdOut.length, 1);
           assert.equal(stdOut[0], fizzbuzz(n));
         });
-      })(i));
-    }
-    return Promise.all(promises);
-  });
+      })
+    })(i);
+  }
 });
