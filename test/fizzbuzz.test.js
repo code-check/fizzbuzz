@@ -40,7 +40,7 @@ describe("FizzBuzz", function() {
   // 4 to 100
   for (var i=4; i<=100; i++) {
     (function(n) {
-      it(n + " to " + fizzubzz(n), function() {
+      it(n + " to " + fizzbuzz(n), function() {
         return app.run(n).spread(function(code, stdOut) {
           assert.equal(code, 0);
           assert.equal(stdOut.length, 1);
