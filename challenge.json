@@ -16,8 +16,8 @@
   "cli": [
     "nodejs",
     "ruby",
-    "go",
     "java",
+    "go",
     "python"
   ],
   "test": "mocha"
