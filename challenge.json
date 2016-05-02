@@ -17,6 +17,7 @@
     "nodejs",
     "ruby",
     "go",
+    "java",
     "python"
   ],
   "test": "mocha"
