@@ -11,7 +11,7 @@ object FizzBuzz {
     }
     //END_CHALLENGE
     //"fizzbuzz" is a temporary return value
-    // Plese write your solution here and comment the following line
+    // Please write your solution here and comment the following line
     "fizzbuzz"
   }
 }
