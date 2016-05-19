@@ -16,7 +16,7 @@ public class FizzBuzz
 
         // return data;
         //END_CHALLENGE
-        // Plese write your solution here and comment the following line
+        // Please write your solution here and comment the following line
         return "fizzbuzz";
     }
 
