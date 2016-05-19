@@ -33,31 +33,31 @@ Write a function to implement FizzBuzz Logic.
 
 
 ## Run Tests
-- If you are solving the test locally please install codecheck globally by running the following command in terminal
+If you are solving the test locally please install codecheck globally by running the following command in terminal
 ```
 $ npm install codecheck -g 
 ```
-- Now run `codecheck` command in terminal in the root folder of challenge
+Now run `codecheck` command in terminal in the root folder of challenge
 ```
 $ codecheck
 ```
-- If you are solving it on web editor of [codecheck](http://code-check.io/) please click on `Run` button on top-left of web editor terminal
+If you are solving it on web editor of [codecheck](http://code-check.io/) please click on `Run` button on top-left of web editor terminal
 
 ### Test Results *before* solving the challenge
-- Initially all the tests will fail with following output
+Initially all the tests will fail with following output
 ```
-FAIL	fizzbuzz [build failed]
+FAIL  fizzbuzz [build failed]
 codecheck: Finish with code 2
 codecheck: tests  : 0
 codecheck: success: 0
 codecheck: failure: 0
 ```
 ### Test Results *after* solving the challenge
-- Solve the challenge to pass the tests
+Solve the challenge to pass the tests
 ```
 codecheck: Finish with code 0
 codecheck: tests  : 1
 codecheck: success: 1
 codecheck: failure: 0
 ```
-- If you have any suggestions or more interesting way of having this challenge please let us know in [answer.md](answer.md) file
+If you have any suggestions or more interesting way of having this challenge please let us know in [answer.md](answer.md) file
