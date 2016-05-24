@@ -1,11 +1,10 @@
 {
   "editable": [
-    "src/fizzbuzz/fizzbuzz.go"
+    "fizzbuzz.lisp"
   ],
   "excludes": [
     ".gitignore",
     "challenge.json",
-    "fizzbuzz_test.go"
   ],
-  "test": "go test -v fizzbuzz"
+  "test": "sbcl --load test.lisp"
 }
