@@ -1,6 +1,9 @@
 (load "./fizzbuzz.lisp")
 (ql:quickload :prove)
 
+(setf prove:*default-reporter* :tap)
+(prove:plan 20)
+
 (prove:is 1 (fizzbuzz 1))
 (prove:is 2 (fizzbuzz 2))
 (prove:is "Fizz" (fizzbuzz 3))
@@ -22,4 +25,5 @@
 (prove:is 19 (fizzbuzz 19))
 (prove:is "Buzz" (fizzbuzz 20))
 
+(prove:finalize)
 (exit)
