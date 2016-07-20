@@ -18,7 +18,8 @@
     "ruby",
     "java",
     "go",
-    "python"
+    "python",
+    "python3"
   ],
   "test": "mocha"
 }
