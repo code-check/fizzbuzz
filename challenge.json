@@ -19,7 +19,8 @@
     "java",
     "go",
     "python",
-    "python3"
+    "python3",
+    "C/C++"
   ],
   "test": "mocha"
 }
