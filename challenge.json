@@ -21,6 +21,7 @@
     "Python",
     "Python3",
     "C/C++",
+    "C#",
     "Scala"
   ],
   "test": "mocha"
