@@ -14,13 +14,14 @@
     "challenge.json"
   ],
   "cli": [
-    "nodejs",
-    "ruby",
-    "java",
-    "go",
-    "python",
-    "python3",
-    "C/C++"
+    "NodeJS",
+    "Ruby",
+    "Java",
+    "Go",
+    "Python",
+    "Python3",
+    "C/C++",
+    "Scala"
   ],
   "test": "mocha"
 }
