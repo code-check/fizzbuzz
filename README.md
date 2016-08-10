@@ -14,22 +14,9 @@ Write a function to implement FizzBuzz Logic.
 
 ### Example
 
-<table>
-  <tr>
-    <td><b>Input</b></td>
-    <td>1</td>
-    <td>3</td>
-    <td>5</td>
-    <td>15</td>
-  </tr>
-  <tr>
-    <td><b>Output</b></td>
-    <td>1</td>
-    <td>Fizz</td>
-    <td>Buzz</td>
-    <td>FizzBuzz</td>
-  </tr>
-</table>
+|Input|1|3|5|15|
+|:--|:--|:--|:--|:--|
+|Ourput|1|Fizz|Buzz|FizzBuzz|
 
 
 ### Test Results *before* solving the challenge
