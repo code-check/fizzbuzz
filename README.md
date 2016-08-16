@@ -1,13 +1,13 @@
 ### FizzBuzz
 
-Write a function to implement FizzBuzz Logic.
+Write a function to implement the following FizzBuzz Logic.
 
-FizzBuzz Logic,
-If the number is
-- Divisible by ` 3 `  replace it with ` "Fizz" `
-- Divisible by ` 5 `  replace it with ` "Buzz" `
-- Divisible by ` 3 and 5 ` replace it with ` "FizzBuzz" `
-- Not Divisible by ` 3, 5 or 15 ` do not change
+If a given number is
+
+- Divisible by 3 and 5, return "FizzBuzz"
+- Divisible by 3, return "Fizz"
+- Divisible by 5, return with "Buzz"
+- Not Divisible by 3, 5 or 15, return the number itself.
 
 ### Example
 
