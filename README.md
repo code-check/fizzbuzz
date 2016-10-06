@@ -3,8 +3,7 @@
 Write a function to implement FizzBuzz Logic.
 
 ## Challenge Description
-- *Use {{source code file}} for solving the challenge*
-- *See {{test code file}} for seeing the tests*
+- *See (fizzbuzz.test.js)[./test/fizzbuzz.test.js] for seeing the tests*
 - FizzBuzz Logic,
   - If the number is
     - Divisible by ` 3 `  replace it with ` "Fizz" `
@@ -12,26 +11,14 @@ Write a function to implement FizzBuzz Logic.
     - Divisible by ` 15 ` replace it with ` "FizzBuzz" `
     - Not Divisible by ` 3, 5 or 15 ` do not change
 
+Arguements will be passed as parameter of cli application, and please output your result to stdout. Instruction of making cli application will be placed as <Language name>.md.
+
 ### Example
 
 |Input|1|3|5|15|
 |:--|:--|:--|:--|:--|
 |Ourput|1|Fizz|Buzz|FizzBuzz|
 
-
-### Test Results *before* solving the challenge
-Initially all the tests will fail with following output.
-
-```
-{{ Initial result of codecheck command }}
-```
-
-### Test Results *after* solving the challenge
-Solve the challenge to pass the tests.
-
- ```
- {{ Solved result of codecheck command }}
- ```
 
 If you have any suggestions or more interesting way of having this challenge please let us know in [answer.md](answer.md) file.
 
