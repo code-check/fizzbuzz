@@ -3,7 +3,7 @@
 Write a function to implement FizzBuzz Logic.
 
 ## Challenge Description
-- *See (fizzbuzz.test.js)[./test/fizzbuzz.test.js] for seeing the tests*
+- *See [fizzbuzz.test.js](./test/fizzbuzz.test.js) for seeing the tests*
 - FizzBuzz Logic,
   - If the number is
     - Divisible by ` 3 `  replace it with ` "Fizz" `
